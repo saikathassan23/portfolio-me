@@ -21,9 +21,15 @@ body {
 /* navigation part */
 header{
     background: #FFF8F3;
-    background-image: url('./images/developer.png'), url('./images/header_bg.png');
+    background-image: url('./images/header_bg.png');
     background-repeat: no-repeat;
-    background-position: top left, bottom right;
+    background-position:bottom right;
+}
+.developer-img{
+    position: absolute;
+    top: 38px;
+    bottom: 25px;
+    left: 25px;
 }
 .nav-title {
   color: #181818;
@@ -46,7 +52,7 @@ header{
   align-items: center;
 }
 .logo {
-  margin-left: 226px;
+  margin-left: 200px;
 }
 .nav-items {
   margin-right: 180px;
@@ -58,7 +64,7 @@ header{
 .intro {
   display: flex;
   align-items: center;
-  padding-left: 230px;
+  padding-left: 200px;
   padding-right: 15px;
   margin-top: 40px;
 }
